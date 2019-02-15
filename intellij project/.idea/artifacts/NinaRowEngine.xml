@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NinaRowEngine">
+    <output-path>$PROJECT_DIR$/out/artifacts/NinaRowEngine</output-path>
+    <root id="archive" name="NinaRowEngine.jar">
+      <element id="module-output" name="NinaRowEngine" />
+    </root>
+  </artifact>
+</component>

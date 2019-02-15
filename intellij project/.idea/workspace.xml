@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NinaRowApp" />
+      <artifact name="NinaRowEngine" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f93ee6f-9458-4a4b-964a-b519ad9b1e2c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NinaRow$Program.ic" NAME="Program Coverage Results" MODIFIED="1533304775577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/NinaRow$NinaRowApp.ic" NAME="NinaRowApp Coverage Results" MODIFIED="1535452161925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>NinaRowApp.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NinaRowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/ninaRowApp/NinaRowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="216" column="197" selection-start-line="216" selection-start-column="193" selection-end-line="216" selection-end-column="197" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardAllocator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/interfaceDelegate/BoardAllocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerInfoBoxController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playerInfoBox/PlayerInfoBoxController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
+                <element signature="e#2430#2431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayersInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playersInfo/PlayersInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplayStageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/replay/ReplayStageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="114" column="54" lean-forward="true" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurnsHistoryController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/turnsHistory/TurnsHistoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayersInfo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/PlayersInfo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurnsHistory.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/TurnsHistory.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="PlayersInfo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/PlayersInfo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayersInfo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/PlayersInfo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>repl</find>
+      <find>restart</find>
+      <find>restar</find>
+      <find>gameo</find>
+      <find>loadx</find>
+      <find>startg</find>
+      <find>retir</find>
+      <find>addac</find>
+      <find>allo</find>
+      <find>stopga</find>
+      <find>m_Ski</find>
+      <find>playerI</find>
+      <find>playerInf</find>
+      <find>player</find>
+      <find>turnsH</find>
+      <find>repla</find>
+      <find>ani</find>
+      <find>init</find>
+      <find>change</find>
+      <find>m_App</find>
+      <find>reti</find>
+      <find>status</find>
+      <find>updateS</find>
+      <find>changeT</find>
+      <find>comp</find>
+      <find>game</find>
+      <find>gameO</find>
+      <find>upd</find>
+      <find>exe</find>
+      <find>popo</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\לימודים שנה ב'\לימודים סמסטר קיץ\ג'אווה\EX01\NinaRowEngine\src\resources</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/CellChange.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/turn/MoveType.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/exception/IlegalXmlFile.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/exception/IllegalXmlFile.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/LoadXmlTask.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/playerInfoBox1.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/Moshe/turnsHostoryMoshe.css" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/PlayComputerTurnDelegate.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/UpdateCurrentPlayerName.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/TurnsHistoryController.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/IncrementPlayerTurnsCounter.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/ComputerTurnTask.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/moshe/PlayerInfoBox.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/moshe/PlayersInfo.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/ReplayStageController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/replayStage/replayStage.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/replayStage/ReplayStageController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/moshe/TurnsHistory.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/moshe/NinaRow.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/TurnsHistory.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/PlayerInfoBox.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/PlayerInfoBoxController.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/PlayerRetireDelegate.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/PlayerInfoBox.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/BoardPainter.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/BoardAllocator.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/TurnsHistory.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/PlayerInfoBox.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/PlayersInfoController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/NinaRowController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/NinaRowApp.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/player/Player.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/NinaRow.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/NinaRow.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/NinaRow.css" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/exception/GamePropertiesException.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/tasks/ComputerTurnTask.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/interfaceDelegate/BoardPainter.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/tasks/LoadXmlTask.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/GameStatus.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/ShowBoardDelegate.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/turn/Turn.java" />
+        <option value="$PROJECT_DIR$/NinaRowEngine/src/engine/NinaRowEngine.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playersInfo/PlayersInfoController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/turnsHistory/TurnsHistoryController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/PlayersInfo.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/PlayersInfo.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/PlayersInfo.css" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playerInfoBox/PlayerInfoBoxController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/ninaRowApp/NinaRowController.java" />
+        <option value="$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/replay/ReplayStageController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="46" />
+    <option name="y" value="23" />
+    <option name="width" value="1234" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NinaRow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFXUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NinaRow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFXUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NinaRow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NinaRowEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21034482" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\components\replay" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\components\ninaRowApp" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\components\playersInfo" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\components\turnsHistory" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\components\playerInfoBox" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="player" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\css\grass" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp\css\fire" />
+      <recent name="C:\Studies Second year\Summer Semester\Java\Moshe Ben Avi 308140 Daniel Okanin 204331623\intellij project\EX01\JavaFXUI\src\NinaRowApp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NinaRowApp">
+    <configuration name="NinaRowApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NinaRowApp.NinaRowApp" />
+      <module name="JavaFXUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NinaRowApp.interfaceDelegate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NinaRowApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NinaRowApp.NinaRowApp" />
+      <module name="NinaRowUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NinaRowApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PPPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="menus.commandsMenu.PPPP" />
+      <module name="NinaRowUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Program" />
+      <module name="NinaRowUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Program" />
+      <item itemvalue="Application.PPPP" />
+      <item itemvalue="Application.NinaRowApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NinaRowApp" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.PPPP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f93ee6f-9458-4a4b-964a-b519ad9b1e2c" name="Default" comment="" />
+      <created>1532945181136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532945181136</updated>
+      <workItem from="1532945184776" duration="86558000" />
+      <workItem from="1533464467808" duration="40110000" />
+      <workItem from="1533762508151" duration="12985000" />
+      <workItem from="1534232100374" duration="189311000" />
+      <workItem from="1535165807361" duration="78855000" />
+      <workItem from="1535963545421" duration="6011000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="430045000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.26158446" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27952167" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28222525" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4005979" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22720478" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="checkIsBoardFull()" language="JAVA" />
+          <url>file://$PROJECT_DIR$/NinaRowEngine/src/engine/NinaRowEngine.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="checkIsBoardFull() == true" language="JAVA" />
+          <url>file://$PROJECT_DIR$/NinaRowEngine/src/engine/NinaRowEngine.java</url>
+          <line>535</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="checkIsBoardFull() == true" language="JAVA" />
+          <url>file://$PROJECT_DIR$/NinaRowEngine/src/engine/NinaRowEngine.java</url>
+          <line>506</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="105" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>checkIsBoardFull() == true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>checkIsBoardFull()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m_Engine.getTurnsHistory().get(m_Engine.getTurnsHistory().size() - 1).getMoveType() == MoveType.POPOUT_DISC</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m_Engine.getTurnsHistory().get(m_Engine.getTurnsHistory().size()).getMoveType() == MoveType.POPOUT_DISC</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i_MoveType.equals(MoveType.POPOUT_DISC)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m_Players.get(0).getTurnsCounter() &gt; 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m_Engine.m_CurrentTurn == 1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1338" column="19" selection-start-line="1338" selection-start-column="19" selection-end-line="1338" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/ninaRowApp/NinaRowApp.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/replayStage/replayStage.css" />
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/ResumableGame.java" />
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/TurnsHistory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/boardImage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/boardImage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/background.png" />
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/PlayerInfoBox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/PlayerInfoBox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/replay/replayStage.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/player/NinaRowPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/TurnsHistory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/PlayerInfoBox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/NinaRow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" selection-start-line="73" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/NinaRow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1827">
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/NinaRow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/interfaceDelegate/BoardPainter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/NinaRowApp.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/NinaRowApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/Variant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/GameStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/UpdateBoardAfterTurnDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/UpdateCurrentPlayerNameDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/UpdateStatusDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/ShowBoardDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/PlayerRetireDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/IncrementPlayerTurnsCounterDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/GameOverDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/exception/FileFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/interfaceDelegate/ChangeTurnDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/exception/GamePropertiesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/exception/IllegalXmlFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/turn/MoveType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/engine/NinaRowEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="59" column="55" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NinaRowEngine/src/turn/Turn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/tasks/LoadXmlTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/tasks/ComputerTurnTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playersInfo/PlayersInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/fire/PlayersInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/TurnsHistory.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/grass/PlayersInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/css/water/PlayersInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/turnsHistory/TurnsHistoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/playerInfoBox/PlayerInfoBoxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/ninaRowApp/NinaRowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="216" column="197" selection-start-line="216" selection-start-column="193" selection-end-line="216" selection-end-column="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/interfaceDelegate/BoardAllocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaFXUI/src/NinaRowApp/components/replay/ReplayStageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="114" column="54" lean-forward="true" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>NinaRowApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21034482" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaFXUI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21034482" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

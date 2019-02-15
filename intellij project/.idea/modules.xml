@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaFXUI/JavaFXUI.iml" filepath="$PROJECT_DIR$/JavaFXUI/JavaFXUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NinaRowEngine/NinaRowEngine.iml" filepath="$PROJECT_DIR$/NinaRowEngine/NinaRowEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NinaRowUI/NinaRowUI.iml" filepath="$PROJECT_DIR$/NinaRowUI/NinaRowUI.iml" />
+    </modules>
+  </component>
+</project>

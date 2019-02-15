@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NinaRow.xsd">
+	<GameType>MultiPlayer</GameType>
+	<Game target="10">
+		<Board rows="15" columns="22"/>
+		<Variant>Regular</Variant>
+	</Game>
+	<Players>
+		<Player id="233">
+			<Name>Rochale</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="143">
+			<Name>Zipi</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="456">
+			<Name>Bluma</Name>
+			<Type>Computer</Type>
+		</Player>
+		<Player id="789">
+			<Name>Brurya</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="135">
+			<Name>Tikva</Name>
+			<Type>Computer</Type>
+		</Player>
+		<Player id="246">
+			<Name>Shoshana</Name>
+			<Type>Human</Type>
+		</Player>
+	</Players>
+</GameDescriptor>

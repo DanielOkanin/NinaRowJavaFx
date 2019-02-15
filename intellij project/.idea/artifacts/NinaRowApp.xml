@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NinaRowApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/NinaRowApp</output-path>
+    <root id="archive" name="NinaRowApp.jar">
+      <element id="module-output" name="JavaFXUI" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/JavaFXUI/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
